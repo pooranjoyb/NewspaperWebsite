@@ -1,0 +1,76 @@
+/* Navigation Bar with logo */
+
+.navbar {
+    flex-direction: column;
+    height: 76px;
+    width: 100%;
+}
+
+.navbar::before {
+    height: 76px;
+}
+
+.navbar img {
+    height: 42px;
+    filter: invert(100%);
+}
+
+.navbar ul li {
+    padding: 0px 7px 0px 7px;
+}
+
+.navbar li a {
+    font-size: 14px;
+}
+
+
+/* Introduction */
+
+#intro::before {
+    overflow: hidden;
+}
+
+#intro .heading {
+    font-size: 1.5rem;
+}
+
+#intro div p {
+    margin: 4px;
+    font-size: 18px;
+}
+
+
+/* Content Channels */
+
+.channel {
+    flex-direction: column;
+}
+
+.channel a .box {
+    word-wrap: break-word;
+    padding: 0px;
+}
+
+.channel h3 {
+    font-size: 18px;
+}
+
+
+/* Network Section */
+
+#network::before {
+    overflow: hidden;
+}
+
+
+/* Contact Section */
+
+#contact::before {
+    overflow: hidden;
+}
+
+#contact #info {
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 18px;
+}

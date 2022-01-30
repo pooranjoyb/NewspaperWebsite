@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* Navigation Bar with logo */
+
+.navbar {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+.navbar::before {
+    content: "";
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    height: 63px;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    z-index: -1;
+}
+
+.navbar img {
+    height: 60px;
+    filter: invert(100%);
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    margin: 0px 20px;
+}
+
+.navbar ul li {
+    padding: 12px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 3px 12px;
+}
+
+.navbar ul li a:hover {
+    color: white;
+    background-color: rgb(75, 75, 75);
+    border-radius: 14px;
+}
+
+
+/* Content */
+
+#intro {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 311px;
+}
+
+#intro::before {
+    content: "";
+    position: absolute;
+    background: url('../bg_img/bg1.jpg') no-repeat center center/cover;
+    top: 0px;
+    left: 0px;
+    height: 378px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.26;
+}
+
+#intro .heading {
+    font-size: 2.5rem;
+    color: black;
+    font-family: 'Teko', sans-serif;
+    height: 20px;
+}
+
+#intro p {
+    margin: 20px 261px;
+    color: black;
+    font-size: 1.4em;
+    text-align: center;
+    font-family: 'Cabin', sans-serif;
+    font-weight: bold;
+}
+
+button {
+    padding: 4px 44px;
+    color: black;
+    background-color: white;
+    border-radius: 12px;
+    font-weight: bold;
+}
+
+button:hover {
+    color: white;
+    background-color: black;
+    border-radius: 14px;
+    cursor: pointer;
+}
+
+
+/* Content/channels */
+
+.channel {
+    display: flex;
+    /* margin: 12px; */
+}
+
+.box {
+    /* border: 2px solid red; */
+    text-align: center;
+    color: black;
+    padding: 28px 22px;
+    margin: 12px 12px;
+    border-radius: 50px;
+    font-family: 'Cabin', sans-serif;
+}
+
+#b1 img,
+#b3 img {
+    height: 106px;
+    width: 173px;
+}
+
+#b2 img {
+    height: 106px;
+}
+
+.box:hover {
+    background-color: rgb(245, 245, 245);
+}
+
+.heading {
+    /* Channel */
+    margin-top: 75px;
+    font-size: 2.0rem;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Teko', sans-serif;
+    font-size: 2.5rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* Contact Section */
+
+#network {
+    position: relative;
+    height: 256px;
+    display: flex;
+    flex-direction: column;
+}
+
+#network::before {
+    content: "";
+    position: absolute;
+    height: 273px;
+    width: 100%;
+    z-index: -1;
+    background: url('../social/network.jpg') no-repeat center center/cover;
+    opacity: 0.5;
+}
+
+#network .heading {
+    margin-top: 6px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Teko', sans-serif;
+    font-size: 2.8rem;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Cabin', sans-serif;
+    padding: 6px;
+    font-size: 18px;
+}
+
+form div {
+    padding: 6px;
+}
+
+.form button {
+    padding: 4px 85px;
+    color: black;
+    background-color: white;
+    border-radius: 12px;
+    font-weight: bold;
+    margin-top: 12px;
+}
+
+.form button:hover {
+    color: white;
+    background-color: black;
+    border-radius: 14px;
+    cursor: pointer;
+}
+
+div input {
+    font-family: 'Cabin', sans-serif;
+}
+
+
+/* Contact*/
+
+#contact {
+    position: relative;
+    height: 281px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 90px;
+}
+
+#contact::before {
+    content: "";
+    position: absolute;
+    margin-top: 134px;
+    height: 340px;
+    width: 100%;
+    z-index: -1;
+    background: url(../social/contact.jpg) no-repeat center center/cover;
+    opacity: 0.25;
+}
+
+#contact #info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Cabin', sans-serif;
+    font-size: 1.2rem;
+    padding: 12px 233px 0px 207px;
+    text-align: center;
+}
+
+
+/* Footer */
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    color: white;
+    background-color: black;
+    font-family: 'Cabin', sans-serif;
+    font-size: 14px;
+}
