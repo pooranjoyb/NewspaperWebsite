@@ -3,7 +3,7 @@
 Welcome to my first simple and responsive Newspaper website created using basic HTML &amp; CSS.
 Check this project by cloning it to your PC using Gitbash or the Download/Clone button.
 
-**Using Gitbash : **
+**Using Gitbash**
 
 Open Gitbash 
 
