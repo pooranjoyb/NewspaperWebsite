@@ -3,14 +3,19 @@
 Welcome to my first simple and responsive Newspaper website created using basic HTML &amp; CSS.
 Check this project by cloning it to your PC using Gitbash or the Download/Clone button.
 
+**Using the link**
+https://pooranjoyb.github.io/NewspaperWebsite/
+
+Tap here to open ther link.
+
 **Using Gitbash**
 
 Open Gitbash 
 
 Copy the following command to clone this repository in your local storage:
-
+```
 git clone https://github.com/pooranjoyb/NewspaperWebsite.git
-
+```
 Hit the Enter key.
 
 It would take a few seconds to clone the repository onto your system.
